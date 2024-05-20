@@ -6,12 +6,9 @@ This repository contains the code and data used in the thesis project titled **"
 ## Context and Importance of the Study
 Major Depressive Disorder (MDD) is a leading cause of disability worldwide, affecting millions of individuals and imposing significant societal and economic burdens. The early detection of MDD is crucial for customizing timely and effective treatment strategies. This study leverages the TD-BRAIN dataset, which provides comprehensive EEG data, to explore the potential of FAA as a biomarker and the comparative performance of traditional and deep learning models in diagnosing MDD.
 
-## Societal and Scientific Relevance
-Accurate prediction of MDD is essential for effective treatment and management. This research aims to deliver significant societal benefits by enabling better anticipation of MDD onset, which can guide timely interventions. Scientifically, this thesis advances the field of psychiatric diagnostics by integrating traditional statistical methods with innovative machine learning techniques. This study enhances our understanding of MDD dynamics and lays the foundation for handling complex biomedical datasets.
-
 ## Methodology
 This study employs a 5-fold cross-validation strategy to ensure robust model evaluation and explores gender-specific variations by analyzing male and female subgroups separately. The research utilizes several machine learning models:
-- Support Vector Machine (SVM) with FAA features
+- SVM with FAA features
 - SVM with complete EEG data
 - LSTM with complete EEG data
 - CNN-LSTM with complete EEG data
